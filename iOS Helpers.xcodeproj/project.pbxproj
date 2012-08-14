@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CAC5CC7515DA018000EC6649 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC5CC7415DA018000EC6649 /* Foundation.framework */; };
-		CAC5CC7A15DA018000EC6649 /* iOS_Helpers.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CAC5CC7915DA018000EC6649 /* iOS_Helpers.h */; };
-		CAC5CC7C15DA018000EC6649 /* iOS_Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC5CC7B15DA018000EC6649 /* iOS_Helpers.m */; };
 		CAC5CC8415DA018000EC6649 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC5CC8315DA018000EC6649 /* SenTestingKit.framework */; };
 		CAC5CC8615DA018000EC6649 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC5CC8515DA018000EC6649 /* UIKit.framework */; };
 		CAC5CC8715DA018000EC6649 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC5CC7415DA018000EC6649 /* Foundation.framework */; };
 		CAC5CC8A15DA018000EC6649 /* libiOS Helpers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC5CC7115DA018000EC6649 /* libiOS Helpers.a */; };
 		CAC5CC9015DA018000EC6649 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAC5CC8E15DA018000EC6649 /* InfoPlist.strings */; };
 		CAC5CC9315DA018100EC6649 /* iOS_HelpersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC5CC9215DA018100EC6649 /* iOS_HelpersTests.m */; };
+		CAC5CCA115DA01AC00EC6649 /* UITextField+Nextable.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC5CC9E15DA01AC00EC6649 /* UITextField+Nextable.m */; };
+		CAC5CCA215DA01AC00EC6649 /* ELTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC5CCA015DA01AC00EC6649 /* ELTextFieldDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				CAC5CC7A15DA018000EC6649 /* iOS_Helpers.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +44,6 @@
 		CAC5CC7115DA018000EC6649 /* libiOS Helpers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libiOS Helpers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC5CC7415DA018000EC6649 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CAC5CC7815DA018000EC6649 /* iOS Helpers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Helpers-Prefix.pch"; sourceTree = "<group>"; };
-		CAC5CC7915DA018000EC6649 /* iOS_Helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_Helpers.h; sourceTree = "<group>"; };
-		CAC5CC7B15DA018000EC6649 /* iOS_Helpers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Helpers.m; sourceTree = "<group>"; };
 		CAC5CC8215DA018000EC6649 /* iOS HelpersTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS HelpersTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC5CC8315DA018000EC6649 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		CAC5CC8515DA018000EC6649 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -54,6 +51,11 @@
 		CAC5CC8F15DA018000EC6649 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CAC5CC9115DA018100EC6649 /* iOS_HelpersTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_HelpersTests.h; sourceTree = "<group>"; };
 		CAC5CC9215DA018100EC6649 /* iOS_HelpersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_HelpersTests.m; sourceTree = "<group>"; };
+		CAC5CC9C15DA01AC00EC6649 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		CAC5CC9D15DA01AC00EC6649 /* UITextField+Nextable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Nextable.h"; sourceTree = "<group>"; };
+		CAC5CC9E15DA01AC00EC6649 /* UITextField+Nextable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Nextable.m"; sourceTree = "<group>"; };
+		CAC5CC9F15DA01AC00EC6649 /* ELTextFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELTextFieldDelegate.h; sourceTree = "<group>"; };
+		CAC5CCA015DA01AC00EC6649 /* ELTextFieldDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELTextFieldDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +113,11 @@
 		CAC5CC7615DA018000EC6649 /* iOS Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				CAC5CC7915DA018000EC6649 /* iOS_Helpers.h */,
-				CAC5CC7B15DA018000EC6649 /* iOS_Helpers.m */,
+				CAC5CC9C15DA01AC00EC6649 /* Macros.h */,
+				CAC5CC9D15DA01AC00EC6649 /* UITextField+Nextable.h */,
+				CAC5CC9E15DA01AC00EC6649 /* UITextField+Nextable.m */,
+				CAC5CC9F15DA01AC00EC6649 /* ELTextFieldDelegate.h */,
+				CAC5CCA015DA01AC00EC6649 /* ELTextFieldDelegate.m */,
 				CAC5CC7715DA018000EC6649 /* Supporting Files */,
 			);
 			path = "iOS Helpers";
@@ -243,7 +248,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAC5CC7C15DA018000EC6649 /* iOS_Helpers.m in Sources */,
+				CAC5CCA115DA01AC00EC6649 /* UITextField+Nextable.m in Sources */,
+				CAC5CCA215DA01AC00EC6649 /* ELTextFieldDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
