@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAC5CC7515DA018000EC6649 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC5CC7415DA018000EC6649 /* Foundation.framework */; };
+		CAC5CC7A15DA018000EC6649 /* iOS_Helpers.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CAC5CC7915DA018000EC6649 /* iOS_Helpers.h */; };
+		CAC5CC7C15DA018000EC6649 /* iOS_Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC5CC7B15DA018000EC6649 /* iOS_Helpers.m */; };
+		CAC5CC8415DA018000EC6649 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC5CC8315DA018000EC6649 /* SenTestingKit.framework */; };
+		CAC5CC8615DA018000EC6649 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC5CC8515DA018000EC6649 /* UIKit.framework */; };
+		CAC5CC8715DA018000EC6649 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC5CC7415DA018000EC6649 /* Foundation.framework */; };
+		CAC5CC8A15DA018000EC6649 /* libiOS Helpers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC5CC7115DA018000EC6649 /* libiOS Helpers.a */; };
+		CAC5CC9015DA018000EC6649 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAC5CC8E15DA018000EC6649 /* InfoPlist.strings */; };
+		CAC5CC9315DA018100EC6649 /* iOS_HelpersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC5CC9215DA018100EC6649 /* iOS_HelpersTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAC5CC8815DA018000EC6649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAC5CC6815DA018000EC6649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAC5CC7015DA018000EC6649;
+			remoteInfo = "iOS Helpers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAC5CC6F15DA018000EC6649 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				CAC5CC7A15DA018000EC6649 /* iOS_Helpers.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CAC5CC7115DA018000EC6649 /* libiOS Helpers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libiOS Helpers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC5CC7415DA018000EC6649 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAC5CC7815DA018000EC6649 /* iOS Helpers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Helpers-Prefix.pch"; sourceTree = "<group>"; };
+		CAC5CC7915DA018000EC6649 /* iOS_Helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_Helpers.h; sourceTree = "<group>"; };
+		CAC5CC7B15DA018000EC6649 /* iOS_Helpers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Helpers.m; sourceTree = "<group>"; };
+		CAC5CC8215DA018000EC6649 /* iOS HelpersTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS HelpersTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC5CC8315DA018000EC6649 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CAC5CC8515DA018000EC6649 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CAC5CC8D15DA018000EC6649 /* iOS HelpersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS HelpersTests-Info.plist"; sourceTree = "<group>"; };
+		CAC5CC8F15DA018000EC6649 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAC5CC9115DA018100EC6649 /* iOS_HelpersTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_HelpersTests.h; sourceTree = "<group>"; };
+		CAC5CC9215DA018100EC6649 /* iOS_HelpersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_HelpersTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAC5CC6E15DA018000EC6649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC5CC7515DA018000EC6649 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC5CC7E15DA018000EC6649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC5CC8415DA018000EC6649 /* SenTestingKit.framework in Frameworks */,
+				CAC5CC8615DA018000EC6649 /* UIKit.framework in Frameworks */,
+				CAC5CC8715DA018000EC6649 /* Foundation.framework in Frameworks */,
+				CAC5CC8A15DA018000EC6649 /* libiOS Helpers.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAC5CC6615DA018000EC6649 = {
+			isa = PBXGroup;
+			children = (
+				CAC5CC7615DA018000EC6649 /* iOS Helpers */,
+				CAC5CC8B15DA018000EC6649 /* iOS HelpersTests */,
+				CAC5CC7315DA018000EC6649 /* Frameworks */,
+				CAC5CC7215DA018000EC6649 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAC5CC7215DA018000EC6649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAC5CC7115DA018000EC6649 /* libiOS Helpers.a */,
+				CAC5CC8215DA018000EC6649 /* iOS HelpersTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAC5CC7315DA018000EC6649 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAC5CC7415DA018000EC6649 /* Foundation.framework */,
+				CAC5CC8315DA018000EC6649 /* SenTestingKit.framework */,
+				CAC5CC8515DA018000EC6649 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAC5CC7615DA018000EC6649 /* iOS Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CAC5CC7915DA018000EC6649 /* iOS_Helpers.h */,
+				CAC5CC7B15DA018000EC6649 /* iOS_Helpers.m */,
+				CAC5CC7715DA018000EC6649 /* Supporting Files */,
+			);
+			path = "iOS Helpers";
+			sourceTree = "<group>";
+		};
+		CAC5CC7715DA018000EC6649 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAC5CC7815DA018000EC6649 /* iOS Helpers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAC5CC8B15DA018000EC6649 /* iOS HelpersTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAC5CC9115DA018100EC6649 /* iOS_HelpersTests.h */,
+				CAC5CC9215DA018100EC6649 /* iOS_HelpersTests.m */,
+				CAC5CC8C15DA018000EC6649 /* Supporting Files */,
+			);
+			path = "iOS HelpersTests";
+			sourceTree = "<group>";
+		};
+		CAC5CC8C15DA018000EC6649 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAC5CC8D15DA018000EC6649 /* iOS HelpersTests-Info.plist */,
+				CAC5CC8E15DA018000EC6649 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAC5CC7015DA018000EC6649 /* iOS Helpers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC5CC9615DA018100EC6649 /* Build configuration list for PBXNativeTarget "iOS Helpers" */;
+			buildPhases = (
+				CAC5CC6D15DA018000EC6649 /* Sources */,
+				CAC5CC6E15DA018000EC6649 /* Frameworks */,
+				CAC5CC6F15DA018000EC6649 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Helpers";
+			productName = "iOS Helpers";
+			productReference = CAC5CC7115DA018000EC6649 /* libiOS Helpers.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CAC5CC8115DA018000EC6649 /* iOS HelpersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC5CC9915DA018100EC6649 /* Build configuration list for PBXNativeTarget "iOS HelpersTests" */;
+			buildPhases = (
+				CAC5CC7D15DA018000EC6649 /* Sources */,
+				CAC5CC7E15DA018000EC6649 /* Frameworks */,
+				CAC5CC7F15DA018000EC6649 /* Resources */,
+				CAC5CC8015DA018000EC6649 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAC5CC8915DA018000EC6649 /* PBXTargetDependency */,
+			);
+			name = "iOS HelpersTests";
+			productName = "iOS HelpersTests";
+			productReference = CAC5CC8215DA018000EC6649 /* iOS HelpersTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAC5CC6815DA018000EC6649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Edmond Leung";
+			};
+			buildConfigurationList = CAC5CC6B15DA018000EC6649 /* Build configuration list for PBXProject "iOS Helpers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAC5CC6615DA018000EC6649;
+			productRefGroup = CAC5CC7215DA018000EC6649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAC5CC7015DA018000EC6649 /* iOS Helpers */,
+				CAC5CC8115DA018000EC6649 /* iOS HelpersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAC5CC7F15DA018000EC6649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC5CC9015DA018000EC6649 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CAC5CC8015DA018000EC6649 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAC5CC6D15DA018000EC6649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC5CC7C15DA018000EC6649 /* iOS_Helpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC5CC7D15DA018000EC6649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC5CC9315DA018100EC6649 /* iOS_HelpersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAC5CC8915DA018000EC6649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAC5CC7015DA018000EC6649 /* iOS Helpers */;
+			targetProxy = CAC5CC8815DA018000EC6649 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAC5CC8E15DA018000EC6649 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAC5CC8F15DA018000EC6649 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAC5CC9415DA018100EC6649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAC5CC9515DA018100EC6649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAC5CC9715DA018100EC6649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/iOS_Helpers.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Helpers/iOS Helpers-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CAC5CC9815DA018100EC6649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/iOS_Helpers.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Helpers/iOS Helpers-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CAC5CC9A15DA018100EC6649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Helpers/iOS Helpers-Prefix.pch";
+				INFOPLIST_FILE = "iOS HelpersTests/iOS HelpersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CAC5CC9B15DA018100EC6649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Helpers/iOS Helpers-Prefix.pch";
+				INFOPLIST_FILE = "iOS HelpersTests/iOS HelpersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAC5CC6B15DA018000EC6649 /* Build configuration list for PBXProject "iOS Helpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC5CC9415DA018100EC6649 /* Debug */,
+				CAC5CC9515DA018100EC6649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC5CC9615DA018100EC6649 /* Build configuration list for PBXNativeTarget "iOS Helpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC5CC9715DA018100EC6649 /* Debug */,
+				CAC5CC9815DA018100EC6649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAC5CC9915DA018100EC6649 /* Build configuration list for PBXNativeTarget "iOS HelpersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC5CC9A15DA018100EC6649 /* Debug */,
+				CAC5CC9B15DA018100EC6649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAC5CC6815DA018000EC6649 /* Project object */;
+}
