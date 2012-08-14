@@ -11,4 +11,6 @@
 
 @interface ELTextFieldDelegate : NSObject <UITextFieldDelegate>
 
+@property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
+
 @end
