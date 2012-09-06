@@ -20,4 +20,17 @@
   [__alert show]; \
 }
 
+#define LLConnectionAlert() { \
+  NSString *title; \
+  NSString *message; \
+  \
+  title = NSLocalizedString(@"No Internet Connetion", \
+                            @"No internet connection alert title"); \
+  message = \
+    NSLocalizedString(@"An internet connection is required to continue.", \
+                      @"No Internet Connection alert message"); \
+  \
+  LLAlert(title, message); \
+}
+
 #endif
