@@ -9,6 +9,8 @@
 #ifndef Loverly_Macros_h
 #define Loverly_Macros_h
 
+#define kConnectionError 10061
+
 #define LLAlert(title, message) { \
   UIAlertView *__alert = \
     [[UIAlertView alloc] initWithTitle:title \
