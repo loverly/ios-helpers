@@ -96,4 +96,8 @@
   self.scrollView.scrollIndicatorInsets = UIEdgeInsetsZero;
 }
 
+- (void)dealloc {
+  [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
 @end
