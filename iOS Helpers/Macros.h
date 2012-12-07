@@ -11,6 +11,16 @@
 
 #define kConnectionError 10061
 
+#define IS_WIDESCREEN (fabs((double) \
+  [[UIScreen mainScreen]bounds].size.height - (double)568) < DBL_EPSILON)
+
+#define IS_IPHONE ([[[UIDevice currentDevice]model] \
+  isEqualToString:@"iPhone"])
+#define IS_IPOD   ([[[UIDevice currentDevice]model] \
+  isEqualToString:@"iPod touch"])
+
+#define IS_IPHONE_5 (IS_IPHONE && IS_WIDESCREEN)
+
 #define LLAlert(title, message) { \
   UIAlertView *__alert = \
     [[UIAlertView alloc] initWithTitle:title \
@@ -44,6 +54,5 @@
   [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
                   green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
                    blue:((float)(rgbValue & 0xFF))/255.0 alpha:a]
-
 
 #endif
